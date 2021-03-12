@@ -10,9 +10,14 @@ namespace TestApp
 		{
 		static void Main( string[] args )
 			{
-			Console.WriteLine("testString");
-			Console.WriteLine("2terTestString");
-			Console.ReadLine();
+			Teacher _teacher = new Teacher();
+
+			_teacher.FistName = "Franz";
+			_teacher.LastName = "Schütz";
+			_teacher.Age = 55;
+
+			_teacher.ToString();
+			Console.Read();
 			}
 		}
 	}
