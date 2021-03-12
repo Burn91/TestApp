@@ -16,6 +16,9 @@ namespace TestApp
 			_teacher.LastName = "Schütz";
 			_teacher.Age = 55;
 
+			string test = "test";
+			string test2 = "test2";
+
 			_teacher.ToString();
 			Console.Read();
 			}
